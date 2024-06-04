@@ -1,0 +1,79 @@
+/*--------------------- MAIN ---------------------*/
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    color: #ffaa00;
+    margin-bottom: 40px;
+}
+
+/* INTEGRANTES */
+
+.section-integrantes {
+    padding: 40px 10%;
+}
+
+.integrantes {
+    display: flex;
+    gap: 40px;
+    margin: 0 10% 0;
+    text-align: center;
+}
+
+.integrantes img {
+    border: 5px solid #333940;
+    border-radius: 50%;
+}
+
+.integrantes h3 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffaa00;
+}
+
+.integrantes span {
+    font-weight: 500;
+    color: #333940;
+}
+
+/* FALE CONOSCO */
+.section-formulario {
+    padding: 40px 10%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
+}
+
+#nome,
+#email,
+#assunto {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin: 0 0 15px 0;
+    padding: 10px 10px;
+    border: 1px solid #0f5a6c;
+    border-radius: 8px;
+}
+
+#mensagem {
+    height: 210px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    border: 1px solid #0f5a6c;
+    border-radius: 8px;
+}
+
+.botao-enviar {
+    text-align: end;
+    border: none;
+    background: none;
+}
+
+.botao-enviar img {
+    height: 60px;
+}
