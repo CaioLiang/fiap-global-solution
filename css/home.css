@@ -74,7 +74,7 @@
 
 .section-integrantes h2 {
     font-size: 1.50rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffaa00;
     text-align: center;
     margin-bottom: 20px;
@@ -123,7 +123,7 @@
 
 .section-formulario h2 {
     font-size: 1.50rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #ffaa00;
     text-align: center;
     margin-bottom: 20px;
@@ -187,4 +187,34 @@
 .botao-enviar:hover {
     background-color: #f4a303;
     transition: 0.5s;
+}
+
+@media (max-width: 575px) {
+    
+    .container {
+        padding-top: 140px;
+    }
+    
+    .container h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    .container p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .section-integrantes {
+        height: 153vh;
+    }
+    
+    .section-integrantes h2 {
+        font-size: 1.4rem;
+    }
+    
+    .section-integrantes p {
+        font-size: 0.8rem;
+    }
+    
 }
