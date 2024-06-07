@@ -103,3 +103,41 @@
     border-radius: 5px;
 
 }
+
+@media (max-width: 575px) {
+
+    .cadastrar-residuos button {
+        margin-top: 20px;
+    }
+
+    .acessar-relatorios button {
+        margin-top: 20px;
+    }
+
+    /* Gráficos */
+    .section-graficos {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .card-despejo {
+        padding: 15% 15%;
+    }
+
+    .graficos {
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
