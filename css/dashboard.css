@@ -1,11 +1,64 @@
-.cards {
+/* Dashboard */
+.section-titulo {
+    margin: 2rem;
+}
+
+.section-titulo h1 {
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #ffaa00;
+    text-align: center;
+}
+
+.section-titulo p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #333940;
+    text-align: center;
+}
+
+.botao-dashboard {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastrar-residuos {
+    text-decoration: none;
+}
+
+.cadastrar-residuos button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #7b7d82;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.acessar-relatorios {
+    text-decoration: none;
+}
+
+.acessar-relatorios button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #7b7d82;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Gráficos */
+.section-graficos {
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
 }
 
-.card {
-    background-color: #fff;
+.card-despejo {
+    background-color: #ffffff;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -13,13 +66,14 @@
     text-align: center;
 }
 
-.charts {
+.graficos {
     display: flex;
     gap: 2rem;
+    margin: 2rem;
 }
 
-.chart {
-    background-color: #fff;
+.grafico {
+    background-color: #ffffff;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -27,7 +81,7 @@
     text-align: center;
 }
 
-.pie-chart {
+.grafico-pizza {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -35,7 +89,7 @@
     margin: 0 auto;
 }
 
-.bar-chart {
+.grafico-barra {
     display: flex;
     gap: 1rem;
     justify-content: center;
@@ -43,9 +97,9 @@
     height: 200px;
 }
 
-.bar {
+.barra {
     width: 30px;
     background-color: #4CAF50;
     border-radius: 5px;
-    transition: height 0.3s ease-in-out;
+
 }

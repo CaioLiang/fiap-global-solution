@@ -27,43 +27,46 @@
     </header>
 
     <main class="conteudo">
-        <section class="container">
+        <section class="section-titulo">
             <h1 class="titulo-pagina">DASHBOARD</h1>
-            <p class="descricao-pagina">Aqui você pode gerenciar os despejos de resíduos da sua empresa</p>
+            <p class="descricao-pagina">Bem-vindo ao seu gerenciador</p>
 
-            <div class="botoes-dashboard">
-                <a href="./gerenciar_despejos.html">
-                    <button class="botao-dashboard">Cadastrar Resíduos</button>
+            <div class="botao-dashboard">
+                <a class="cadastrar-residuos" href="./gerenciar_despejos.html">
+                    <button>Informar novo despejo</button>
+                </a>
+                <a class="acessar-relatorios" href="">
+                    <button>Acessar relatórios</button>
                 </a>
             </div>
         </section>
 
-        <section class="cards">
-            <div class="card">
-                <h2>Total Despejos</h2>
+        <section class="section-graficos">
+            <div class="card-despejo">
+                <h2>Total de Despejos</h2>
                 <p>150</p>
             </div>
-            <div class="card">
+            <div class="card-despejo">
                 <h2>Despejos Recentes</h2>
                 <p>20</p>
             </div>
-            <div class="card">
-                <h2>Empresas Cadastradas</h2>
-                <p>45</p>
+            <div class="card-despejo">
+                <h2>Relatórios Gerados</h2>
+                <p>17</p>
             </div>
         </section>
-        <section class="charts">
-            <div class="chart">
-                <h3>Gráfico de Pizza</h3>
-                <div class="pie-chart"></div>
+        <section class="graficos">
+            <div class="grafico">
+                <h3>Tipos de resíduos</h3>
+                <div class="grafico-pizza"></div>
             </div>
-            <div class="chart">
-                <h3>Gráfico de Barras</h3>
-                <div class="bar-chart">
-                    <div class="bar" style="height: 70%;"></div>
-                    <div class="bar" style="height: 50%;"></div>
-                    <div class="bar" style="height: 30%;"></div>
-                    <div class="bar" style="height: 90%;"></div>
+            <div class="grafico">
+                <h3>Impacto</h3>
+                <div class="grafico-barra">
+                    <div class="barra" style="height: 70%;"></div>
+                    <div class="barra" style="height: 50%;"></div>
+                    <div class="barra" style="height: 30%;"></div>
+                    <div class="barra" style="height: 90%;"></div>
                 </div>
             </div>
         </section>
