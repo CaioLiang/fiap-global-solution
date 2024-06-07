@@ -124,3 +124,29 @@ img {
 .redes-sociais img {
     width: 40px;
 }
+
+@media (max-width: 575px) {
+    
+    .menu-navegacao {
+        padding: 4%;
+    }
+    
+    #logotipo-navbar {
+        gap: 2px;
+    }
+    #logotipo-navbar img{
+        height: 2.9rem;
+    }
+    #logotipo-navbar h1 {
+        font-size: 1.2rem;
+    }
+    #botao-entrar {
+        gap: 5px;
+        padding: 5px;
+    }
+    
+    #botao-entrar img {
+        height: 30px;
+    }
+
+}
