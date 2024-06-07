@@ -39,6 +39,11 @@
     margin-bottom: 40px;
 }
 
+.cadastro-error-message {
+    color: red;
+    margin-top: 10px;
+}
+
 .botao-cadastrar {
     height: 50px;
     width: 120px;

@@ -33,6 +33,11 @@
     margin-bottom: 40px;
 }
 
+.login-error-message {
+    color: red;
+    margin-top: 10px;
+}
+
 .botao-entrar {
     height: 50px;
     width: 100px;
