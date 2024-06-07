@@ -1,10 +1,6 @@
 #icon-backpage {
     height: 60px;
-    margin-bottom: 30px;
-}
-
-.container {
-    padding: 2px;
+    margin-bottom: 40px;
 }
 
 .titulo-pagina {
@@ -12,20 +8,14 @@
     justify-content: center;
     font-weight: 700;
     color: #ffaa00;
+    margin-bottom: 10px;
 }
 
-.descricao-pagina {
-    display: flex;
-    justify-content: center;
-    color: #333940;
-    margin-bottom: 40px;
-}
-
-#nome,
-#cpf,
-#email,
-#senha,
-#confirmar-senha {
+#tipo,
+#composicao,
+#quantidade,
+#local,
+#data-hora {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     width: 100%;
     margin-bottom: 20px;
@@ -39,7 +29,7 @@
     margin-bottom: 40px;
 }
 
-.botao-cadastrar {
+.botao-confirmar {
     height: 50px;
     width: 120px;
     font-size: 20px;
@@ -54,7 +44,7 @@
     cursor: pointer;
 }
 
-.botao-cadastrar:hover {
+.botao-confirmar:hover {
     background-color: #f4a303;
     transition: 0.5s;
 }
@@ -72,11 +62,11 @@
         font-size: 0.7rem;
     }
 
-    #nome,
-    #cpf,
-    #email,
-    #senha,
-    #confirmar-senha {
+    #tipo,
+    #composicao,
+    #quantidade,
+    #local,
+    #data-hora {
         font-size: 0.8rem;
         padding: 10px 10px;
     }
@@ -100,12 +90,12 @@
         font-size: 1rem;
     }
 
-    #nome,
-    #cpf,
-    #email,
-    #senha,
-    #confirmar-senha {
-        font-size: 1.0rem;
+    #tipo,
+    #composicao,
+    #quantidade,
+    #local,
+    #data-hora {
+        font-size: 1.2rem;
         padding: 15px 15px;
     }
 }
@@ -123,12 +113,12 @@
         font-size: 1rem;
     }
 
-    #nome,
-    #cpf,
-    #email,
-    #senha,
-    #confirmar-senha {
-        font-size: 1.0rem;
+    #tipo,
+    #composicao,
+    #quantidade,
+    #local,
+    #data-hora {
+        font-size: 1.2rem;
         padding: 15px 15px;
     }
 }
@@ -146,12 +136,12 @@
         font-size: 1.2rem;
     }
 
-    #nome,
-    #cpf,
-    #email,
-    #senha,
-    #confirmar-senha {
-        font-size: 1.2rem;
+    #tipo,
+    #composicao,
+    #quantidade,
+    #local,
+    #data-hora {
+        font-size: 1.0rem;
         padding: 15px 15px;
     }
 }
@@ -169,11 +159,11 @@
         font-size: 1.2rem;
     }
 
-    #nome,
-    #cpf,
-    #email,
-    #senha,
-    #confirmar-senha {
+    #tipo,
+    #composicao,
+    #quantidade,
+    #local,
+    #data-hora {
         font-size: 1.0rem;
         padding: 15px 15px;
     }

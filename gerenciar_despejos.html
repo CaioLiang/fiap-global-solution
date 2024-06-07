@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/gerenciar_despejos.css">
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +25,27 @@
             </a>
         </nav>
     </header>
+
+    <main>
+        <main class="conteudo">
+            <div class="container">
+                <a href="./dashboard.html"><img id="icon-backpage" src="./img/voltar-icon.png"
+                        alt="opção de volta de página"></a>
+                <h1 class="titulo-pagina">Informar resíduo despejado</h1>
+
+                <form action="" method="post" class="formulario" id="despejoForm">
+                    <input type="text" name="tipo" id="tipo" placeholder="Tipo de resíduo">
+                    <input type="text" name="composicao" id="composicao" placeholder="Composição">
+                    <input type="text" name="quantidade" id="quantidade" placeholder="Quantidade despejada">
+                    <input type="text" name="local" id="local" placeholder="Local do despejo">
+                    <input type="text" name="data-hora" id="data-hora" placeholder="Data e Hora">
+                    <div>
+                        <button type="submit" class="botao-confirmar">Confirmar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </main>
 
     <footer class="rodape">
         <div class="container-footer">
