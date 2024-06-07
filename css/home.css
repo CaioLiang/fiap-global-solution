@@ -217,4 +217,12 @@
         font-size: 0.8rem;
     }
     
+    .section-formulario p {
+        font-size: 0.8rem;
+    }
+    
+    .formulario {
+        margin: 0 10%;
+    }
+       
 }
