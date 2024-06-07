@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/cadastro.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
-    <title>Cadastro</title>
+    <title>Dashboard</title>
 </head>
 
 <body>
@@ -28,23 +27,46 @@
     </header>
 
     <main class="conteudo">
-        <div class="container">
-            <a href="./login.html"><img id="icon-backpage" src="./img/voltar-icon.png"
-                    alt="opção de volta de página"></a>
-            <h1 class="titulo-pagina">CADASTRAR EMPRESA</h1>
-            <p class="descricao-pagina">Preencha os dados da sua empresa para continuar</p>
+        <section class="container">
+            <h1 class="titulo-pagina">DASHBOARD</h1>
+            <p class="descricao-pagina">Aqui você pode gerenciar os despejos de resíduos da sua empresa</p>
 
-            <form action="" method="post" class="formulario" id="cadastroForm">
-                <input type="text" name="nome" id="nome" placeholder="Nome da Empresa">
-                <input type="text" name="cpf" id="cpf" placeholder="CNPJ">
-                <input type="text" name="email" id="email" placeholder="E-mail">
-                <input type="password" name="senha" id="senha" placeholder="Senha">
-                <input type="password" name="confirmar-senha" id="confirmar-senha" placeholder="Confirmar senha">
-                <div>
-                    <button type="submit" class="botao-cadastrar">Cadastrar</button>
+            <div class="botoes-dashboard">
+                <a href="./gerenciar_despejos.html">
+                    <button class="botao-dashboard">Cadastrar Resíduos</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <h2>Total Despejos</h2>
+                <p>150</p>
+            </div>
+            <div class="card">
+                <h2>Despejos Recentes</h2>
+                <p>20</p>
+            </div>
+            <div class="card">
+                <h2>Empresas Cadastradas</h2>
+                <p>45</p>
+            </div>
+        </section>
+        <section class="charts">
+            <div class="chart">
+                <h3>Gráfico de Pizza</h3>
+                <div class="pie-chart"></div>
+            </div>
+            <div class="chart">
+                <h3>Gráfico de Barras</h3>
+                <div class="bar-chart">
+                    <div class="bar" style="height: 70%;"></div>
+                    <div class="bar" style="height: 50%;"></div>
+                    <div class="bar" style="height: 30%;"></div>
+                    <div class="bar" style="height: 90%;"></div>
                 </div>
-            </form>
-        </div>
+            </div>
+        </section>
     </main>
 
     <footer class="rodape">
