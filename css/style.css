@@ -23,9 +23,7 @@ img {
     height: 70px;
 }
 
-/*--------------------- COMEÇA DAQUI O CSS ---------------------*/
-
-/*--------------------- HEADER ---------------------*/
+/* HEADER */
 .menu-navegacao {
     display: flex;
     align-items: center;
@@ -45,6 +43,7 @@ img {
 
 .menu-navegacao a h1 {
     font-size: 1.7rem;
+    margin: 10px;
 }
 
 #botao-entrar {
@@ -67,7 +66,11 @@ img {
     color: #ffaa00;
 }
 
-/*--------------------- FOOTER ---------------------*/
+/* FOOTER */
+.conteudo {
+    min-height: calc(100vh - 250px);
+}
+
 .rodape {
     display: flex;
     align-items: center;

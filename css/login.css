@@ -42,6 +42,10 @@
     height: 60px;
 }
 
+.criar-conta a {
+    text-decoration: none;
+}
+
 @media (max-width: 575px) {
     .container {
         margin: 40px 10%;
