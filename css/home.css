@@ -189,7 +189,7 @@
 }
 
 @media (max-width: 575px) {
-    
+
     .container {
         padding-top: 140px;
     }
@@ -220,4 +220,37 @@
         margin: 0 10%;
     }
        
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .container {
+        padding-top: 140px;
+    }
+    
+    .container h1 {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    
+    .container p {
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .section-integrantes h2 {
+        font-size: 1.4rem;
+    }
+    
+    .section-integrantes p {
+        font-size: 0.8rem;
+    }
+    
+    .section-formulario p {
+        font-size: 0.8rem;
+    }
+    
+    .formulario {
+        margin: 0 10%;
+    }   
 }
