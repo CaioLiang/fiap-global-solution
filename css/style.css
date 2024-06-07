@@ -149,4 +149,45 @@ img {
         height: 30px;
     }
 
+    .rodape {
+        padding: 20px;
+        padding-bottom: 70px;
+        height: 20vh;
+        gap: 10px;
+    }
+
+    #logo {
+        height: 2.4rem;
+    }
+    
+    .container-footer {
+        align-items: flex-start;
+        gap: 7px;
+    }
+    
+    .container-footer p{
+        text-align: start;
+    }
+    
+    .logotipo-footer {
+        gap: 7px;
+    }
+
+    .rodape h1{
+        font-size: 0.9rem;
+    }
+    
+    .rodape p{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    
+    .redes-sociais {
+        gap: 6px;
+    }
+    
+    .redes-sociais img {
+        width: 35px;
+    }
+
 }
