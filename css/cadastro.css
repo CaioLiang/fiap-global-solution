@@ -6,7 +6,7 @@
 .titulo-pagina {
     display: flex;
     justify-content: center;
-    font-weight: 900;
+    font-weight: 700;
     color: #ffaa00;
 }
 
@@ -35,13 +35,24 @@
     margin-bottom: 40px;
 }
 
-.button-enviar {
+.botao-cadastrar {
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333940;
+    background-color: #ffaa00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     border: none;
-    background: none;
+    cursor: pointer;
 }
 
-.button-enviar img {
-    height: 60px;
+.botao-cadastrar:hover {
+    background-color: #f4a303;
+    transition: 0.5s;
 }
 
 @media (max-width: 575px) {

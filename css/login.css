@@ -6,7 +6,7 @@
 .titulo-pagina {
     display: flex;
     justify-content: center;
-    font-weight: 900;
+    font-weight: 700;
     color: #ffaa00;
 }
 
@@ -33,17 +33,34 @@
     margin-bottom: 40px;
 }
 
-.button-enviar {
+.botao-entrar {
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333940;
+    background-color: #ffaa00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
     border: none;
-    background: none;
+    cursor: pointer;
 }
 
-.button-enviar img {
-    height: 60px;
+.botao-entrar:hover {
+    background-color: #f4a303;
+    transition: 0.5s;
+}
+
+.lembrar-senha {
+    text-decoration: none;
+    color: #7b7d82;
 }
 
 .criar-conta a {
     text-decoration: none;
+    color: #7b7d82;
 }
 
 @media (max-width: 575px) {
