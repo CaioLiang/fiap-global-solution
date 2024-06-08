@@ -69,6 +69,10 @@
 }
 
 @media (max-width: 575px) {
+    #icon-backpage {
+        height: 50px;
+    }
+
     .container {
         margin: 40px 10%;
     }
@@ -78,7 +82,19 @@
     }
 
     .descricao-pagina {
+        font-size: 0.8rem;
+    }
+
+    .lembrar-senha {
         font-size: 0.7rem;
+    }
+
+    .criar-conta p {
+        font-size: 0.8rem;
+    }
+
+    .criar-conta a {
+        font-size: 0.8rem;
     }
 
     #login,
@@ -94,6 +110,10 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+    #icon-backpage {
+        height: 60px;
+    }
+
     .container {
         margin: 60px 10%;
     }

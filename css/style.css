@@ -126,25 +126,29 @@ img {
 }
 
 @media (max-width: 575px) {
+
     /* Nav */
     .menu-navegacao {
         padding: 4%;
     }
-    
+
     #logotipo-navbar {
         gap: 2px;
     }
-    #logotipo-navbar img{
+
+    #logotipo-navbar img {
         height: 2.9rem;
     }
+
     #logotipo-navbar h1 {
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
+
     #botao-entrar {
         gap: 5px;
         padding: 5px;
     }
-    
+
     #botao-entrar img {
         height: 30px;
     }
@@ -153,17 +157,17 @@ img {
 
     #logo {
         height: 2.4rem;
-        }
-    
+    }
+
     .container-footer {
         align-items: flex-start;
         gap: 7px;
     }
-    
-    .container-footer p{
+
+    .container-footer p {
         text-align: start;
     }
-    
+
     .logotipo-footer {
         gap: 7px;
     }
@@ -172,44 +176,49 @@ img {
         gap: 10px;
     }
 
-    .rodape h1{
+    .rodape h1 {
         font-size: 0.9rem;
     }
-    
-    .rodape p{
+
+    .rodape p {
         font-size: 0.6rem;
         text-align: center;
     }
-    
+
     .redes-sociais {
         gap: 6px;
     }
+
     .redes-sociais p {
         display: none;
     }
 
 }
+
 @media (min-width: 576px) and (max-width: 767px) {
 
     /* Nav */
     .menu-navegacao {
         padding: 2.6%;
     }
-    
+
     #logotipo-navbar {
         gap: 2px;
     }
-    #logotipo-navbar img{
+
+    #logotipo-navbar img {
         height: 3.2rem;
     }
+
     #logotipo-navbar h1 {
         font-size: 1.4rem;
     }
+
     #botao-entrar {
         gap: 5px;
         padding: 5px;
     }
-    
+
     #botao-entrar img {
         height: 30px;
     }
@@ -219,16 +228,16 @@ img {
     #logo {
         height: 3rem;
     }
-    
+
     .container-footer {
         align-items: flex-start;
         gap: 7px;
     }
-    
-    .container-footer p{
+
+    .container-footer p {
         text-align: start;
     }
-    
+
     .logotipo-footer {
         gap: 7px;
     }
@@ -237,18 +246,19 @@ img {
         gap: 10px;
     }
 
-    .rodape h1{
+    .rodape h1 {
         font-size: 1.3rem;
     }
-    
-    .rodape p{
+
+    .rodape p {
         font-size: 0.6rem;
         text-align: center;
     }
-    
+
     .redes-sociais {
         gap: 6px;
     }
+
     .redes-sociais p {
         display: none;
     }

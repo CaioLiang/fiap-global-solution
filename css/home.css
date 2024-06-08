@@ -97,12 +97,6 @@
     text-align: center;
 }
 
-.integrantes img {
-    height: 250px;
-    border: 5px solid #333940;
-    border-radius: 50%;
-}
-
 .integrantes h3 {
     font-size: 1.4rem;
     font-weight: 700;
@@ -112,6 +106,21 @@
 .integrantes span {
     font-weight: 500;
     color: #333940;
+}
+
+.integrante {
+    height: 250px;
+    border: 5px solid #333940;
+    border-radius: 50%;
+}
+
+.integrantes-github {
+    text-decoration: none;
+}
+
+.integrantes-github img {
+    width: 30px;
+    margin-top: 10px;
 }
 
 /* FALE CONOSCO */
@@ -193,33 +202,33 @@
     .container {
         padding-top: 140px;
     }
-    
+
     .container h1 {
         text-align: center;
         font-size: 1.4rem;
     }
-    
+
     .container p {
         text-align: center;
         font-size: 1rem;
     }
-    
+
     .section-integrantes h2 {
         font-size: 1.4rem;
     }
-    
+
     .section-integrantes p {
         font-size: 0.8rem;
     }
-    
+
     .section-formulario p {
         font-size: 0.8rem;
     }
-    
+
     .formulario {
         margin: 0 10%;
     }
-       
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -227,36 +236,36 @@
     .container {
         padding-top: 140px;
     }
-    
+
     .container h1 {
         text-align: center;
         font-size: 1.4rem;
     }
-    
+
     .container p {
         text-align: center;
         font-size: 1rem;
     }
-    
+
     .section-integrantes h2 {
         font-size: 1.4rem;
     }
-    
+
     .formulario {
         margin: 0 10%;
-    }   
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    
+
     .formulario {
         margin: 0 10%;
-    }     
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-     
+
     .formulario {
         margin: 0 14%;
-    }     
+    }
 }
